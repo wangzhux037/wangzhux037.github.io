@@ -1,0 +1,82 @@
+
+body{
+	font-family: "Speedee", sans-serif;
+	font-size:22px;
+  margin:0;  
+  padding:0;
+
+}
+
+.outer{
+	text-align: center;
+}
+
+.page{
+	margin-top: 10px;
+   max-width:1200px;
+   height:150vh;
+	width:100%;
+   display: inline-block;
+   text-align:right;
+   background-color: #ffbb00;
+}
+
+.topofpage{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	align-items: center;
+	justy-content:flex-start;
+	height:100px;
+	background-color: #FAF0E0;
+
+		
+}
+
+.navbar{
+	flex-grow:1;
+	text-align:left;
+}
+
+
+.nav{
+  font-family: sans-serif;
+   margin-left:auto;
+   text-align: right;
+}
+.logo{
+	max-width: 200px;
+	text-align: left;
+	
+}
+.logo_image{
+	margin-top:10px;
+		margin-left: 20px;
+	width:40%;
+}
+.search{
+	max-width: 150px;
+	margin-left:auto;
+align-content: flex-end;
+}
+
+.search_image{
+	margin-top: 10px;
+	margin-right: 20px;
+		width:20%
+}
+
+a{
+  color:#292929;
+  text-decoration: none;
+  margin-right:20px;
+}
+
+a:hover {
+  color:#ffbb00;  
+ }
+
+.content{
+	padding: 20px;
+	text-align: left;
+}
