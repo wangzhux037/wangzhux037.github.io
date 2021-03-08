@@ -1,0 +1,84 @@
+body{
+  font-family: sans-serif;
+  color:black;
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.topnav{
+  background-color: white;
+  height:100px;
+  text-align: left;
+
+}
+
+
+
+/* HERO IMAGE */
+.hero_content{
+
+  font-size:18px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffd000;
+  color:lightyellow;
+}
+.hero_text_headline{
+  color:#292929;
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+.hero_content img{
+  width:50%;
+  padding-bottom: 20px;
+}
+
+
+
+/* SIDEBAR COMPONENT */
+
+.side_bar{
+  height:100%;
+  overflow: auto;
+  text-align:left;
+
+}
+
+
+.side_bar .section{
+   color: gray;
+   font-weight: bold;
+   text-transform: uppercase;
+
+}
+
+.side_bar img{
+  float: left;
+  margin-top:10px;
+    margin-bottom:20px;
+  max-height: 250px;
+  max-width: 300px;
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+   
+}
