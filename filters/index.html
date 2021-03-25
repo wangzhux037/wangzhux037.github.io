@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+
+     .my_filter{
+
+      -webkit-filter: blur:(50px):invert(0); 
+      filter: blur(50px)invert(0);
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 1s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: blur:(0px):invert(1); 
+	        filter: blur(0px)invert(1);
+	       }
+
+     }
+
+
+
+
+
+	</style>
+</head>
+
+<body>
+
+<div class="page">
+<img class="my_filter" src="img/spooky.jpeg" alt="pumpkinburger">
+</div>
+
+
+</body>
+</html>
